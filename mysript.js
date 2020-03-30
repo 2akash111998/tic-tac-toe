@@ -14,91 +14,99 @@ restart.addEventListener('click', clearBoard)
 
 // On Click
 cells[0].addEventListener("click",function(){
-  cells[0].textContent = "X";
+	if (cells[0].textContent == ''){
+		cells[0].textContent = 'X'
+	}else if(cells[0].textContent == 'X'){
+		cells[0].textContent = 'O'
+	}else{
+		cells[0].textContent = ''
+	}
 })
 
-// On Double Click
-cells[0].addEventListener("dblclick",function(){
-  cells[0].textContent = "O";
-})
-
-// On Click
 cells[1].addEventListener("click",function(){
-  cells[1].textContent = "X";
+	if (cells[1].textContent == ''){
+		cells[1].textContent = 'X'
+	}else if(cells[1].textContent == 'X'){
+		cells[1].textContent = 'O'
+	}else{
+		cells[1].textContent = ''
+	}
 })
 
-// On Double Click
-cells[1].addEventListener("dblclick",function(){
-  cells[1].textContent = "O";
-})
-
-// On Click
 cells[2].addEventListener("click",function(){
-  cells[2].textContent = "X";
+	if (cells[2].textContent == ''){
+		cells[2].textContent = 'X'
+	}else if(cells[2].textContent == 'X'){
+		cells[2].textContent = 'O'
+	}else{
+		cells[2].textContent = ''
+	}
 })
 
-// On Double Click
-cells[2].addEventListener("dblclick",function(){
-  cells[2].textContent = "O";
-})
-
-// On Click
 cells[3].addEventListener("click",function(){
-  cells[3].textContent = "X";
+	if (cells[3].textContent == ''){
+		cells[3].textContent = 'X'
+	}else if(cells[3].textContent == 'X'){
+		cells[3].textContent = 'O'
+	}else{
+		cells[3].textContent = ''
+	}
 })
 
-// On Double Click
-cells[3].addEventListener("dblclick",function(){
-  cells[3].textContent = "O";
-})
-
-// On Click
 cells[4].addEventListener("click",function(){
-  cells[4].textContent = "X";
+	if (cells[4].textContent == ''){
+		cells[4].textContent = 'X'
+	}else if(cells[4].textContent == 'X'){
+		cells[4].textContent = 'O'
+	}else{
+		cells[4].textContent = ''
+	}
 })
 
-// On Double Click
-cells[4].addEventListener("dblclick",function(){
-  cells[4].textContent = "O";
-})
-
-// On Click
 cells[5].addEventListener("click",function(){
-  cells[5].textContent = "X";
+	if (cells[5].textContent == ''){
+		cells[5].textContent = 'X'
+	}else if(cells[5].textContent == 'X'){
+		cells[5].textContent = 'O'
+	}else{
+		cells[5].textContent = ''
+	}
 })
 
-// On Double Click
-cells[5].addEventListener("dblclick",function(){
-  cells[5].textContent = "O";
-})
-
-// On Click
 cells[6].addEventListener("click",function(){
-  cells[6].textContent = "X";
+	if (cells[6].textContent == ''){
+		cells[6].textContent = 'X'
+	}else if(cells[6].textContent == 'X'){
+		cells[6].textContent = 'O'
+	}else{
+		cells[6].textContent = ''
+	}
 })
 
-// On Double Click
-cells[6].addEventListener("dblclick",function(){
-  cells[6].textContent = "O";
-})
-
-// On Click
 cells[7].addEventListener("click",function(){
-  cells[7].textContent = "X";
+	if (cells[7].textContent == ''){
+		cells[7].textContent = 'X'
+	}else if(cells[7].textContent == 'X'){
+		cells[7].textContent = 'O'
+	}else{
+		cells[7].textContent = ''
+	}
 })
 
-// On Double Click
-cells[7].addEventListener("dblclick",function(){
-  cells[7].textContent = "O";
-})
-
-// On Click
 cells[8].addEventListener("click",function(){
-  cells[8].textContent = "X";
+	if (cells[8].textContent == ''){
+		cells[8].textContent = 'X'
+	}else if(cells[8].textContent == 'X'){
+		cells[8].textContent = 'O'
+	}else{
+		cells[8].textContent = ''
+	}
 })
 
-// On Double Click
-cells[8].addEventListener("dblclick",function(){
-  cells[8].textContent = "O";
-})
+
+
+
+
+
+
 
